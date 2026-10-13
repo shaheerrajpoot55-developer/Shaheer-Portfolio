@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
+    <link rel="stylesheet" href="responsive.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+
+
+
+    <div id="preloader">
+        <h1>My Personal Portfolio</h1>
+    </div>
+
+    <div id="website">
+        <!-- NAVBAR -->
+        <div class="nav">
+            <div class="navLeft">
+                <div class="logo">Shaheer</div>
+            </div>
+
+            <div class="navRight">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Hero Banner -->
+
+        <div id="home" class="banner">
+
+            <div class="bannerLeft">
+                <h3>Hi, I am</h3>
+                <h1>Muhammad Shaheer</h1>
+                <h2 id="profession"></h2>
+                <p>Passionate FrontEnd Developer specializing in HTML, CSS, JavaScript and WordPress.
+                    I build modern, responsive, and scalable web applications.</p>
+                <button class="HeroBtn">
+                    <a href="images/MUHAMMAD SHAHEER CV.pdf" download>
+                        <i class="fa-solid fa-download"></i>
+                        Download Resume</a>
+                </button>
+                <button class="HeroBtn"><a href="#contact">Hire Me</a></button>
+            </div>
+
+            <div class="bannerRight">
+                <img src="images/profile.png" alt="Profile Pic">
+            </div>
+        </div>
+
+
+        <!-- About Section -->
+
+        <div id="about" class="aboutContainer">
+            <h2>About Me</h2>
+
+            <div class="aboutContent">
+                <div class="aboutLeft">
+
+                    <h2>Passionate About FrontEnd Web Developer</h2>
+                    <p>I’m Muhammad Shaheer, a BSIT graduate passionate about building modern, responsive, and
+                        user-friendly websites using HTML, CSS, JavaScript, and WordPress.
+
+                        I enjoy turning ideas into practical web solutions and continuously improving my skills to
+                        create better digital experiences.</p>
+
+
+
+                </div>
+
+                <div class="aboutRight">
+
+                    <!-- Personal Information -->
+
+                    <div class="about-info">
+
+                        <div class="info-box">
+
+                            <h4>Name</h4>
+                            <p>Muhammad Shaheer</p>
+
+                        </div>
+
+                        <div class="info-box">
+
+                            <h4>Degree</h4>
+                            <p>BS Information Technology</p>
+
+                        </div>
+
+                        <div class="info-box">
+
+                            <h4>University</h4>
+                            <p>University of Education</p>
+
+                        </div>
+
+                        <div class="info-box">
+
+                            <h4>Location</h4>
+                            <p>GujarKhan, Pakistan</p>
+
+                        </div>
+
+                        <div class="info-box">
+
+                            <h4>Email</h4>
+                            <p>shaheerrajpoot55@gmail.com</p>
+
+                        </div>
+
+                        <div class="info-box">
+
+                            <h4>Availability</h4>
+                            <p>Open to Internship & Full-Time</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            <button><a href="#contact">Contact Me</a></button>
+
+        </div>
+
+
+        <!-- Skill Section -->
+
+        <div id="skills" class="skillContainer">
+
+            <div class="tittleSection">
+                <h2> My Skills</h2>
+                <p>Here are the technologies and tools I use to build modern, responsive, and scalable web applications.
+                </p>
+            </div>
+
+            <div class="skillContent">
+
+                <!-- skill card -->
+                <div class="skillBox">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+
+                <!-- skill card -->
+                <div class="skillBox">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+
+
+
+                <!-- skill card -->
+                <div class="skillBox">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+
+
+                <!-- skill card -->
+                <div class="skillBox">
+                    <i class="fa-brands fa-node-js"></i>
+                    <h3>Node JS</h3>
+                </div>
+
+                <!-- skill card -->
+                <div class="skillBox">
+                    <i class="fa-solid fa-server"></i>
+                    <h3>Express JS</h3>
+                </div>
+
+
+                <!-- skill card -->
+                <div class="skillBox">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>Mongo DB</h3>
+                </div>
+
+                <!-- skill card -->
+                <div class="skillBox">
+                    <i class="fa-brands fa-wordpress"></i>
+                    <h3>WordPress</h3>
+                </div>
+
+                <!-- skill card -->
+                <div class="skillBox">
+                    <i class="fa-solid fa-palette"></i>
+                    <h3>Canva</h3>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- Project Section -->
+
+        <section id="projects" class="projectContainer">
+
+            <!-- Section Heading & Main Filters -->
+            <div class="tittleSection">
+                <h2>My Projects</h2>
+                <p>
+                    Explore my web development projects and creative graphic designs.
+                </p>
+
+                <div class="projectcategories">
+                    <button id="allprojects" type="button">All</button>
+                    <button id="webDevelopmentProjects" type="button">
+                        Web Development
+                    </button>
+                    <button id="graphicDesignProjects" type="button">
+                        Graphic Designs
+                    </button>
+                </div>
+            </div>
+
+            <!-- Web Development Projects -->
+            <section class="projectGroup" data-group="web">
+
+                <div class="tittleSection">
+                    <h2>Web Development Projects</h2>
+                    <p>
+                        Responsive websites and web applications built with modern
+                        web technologies.
+                    </p>
+                </div>
+
+                <div class="projectContent">
+
+                    <!-- E-commerce Project -->
+                    <article class="projectCard" data-category="web">
+
+                        <div class="project-image">
+                            <img src="images/EcommerceProject.png" alt="Rajpoot Style Mart e-commerce website preview"
+                                loading="lazy">
+                        </div>
+
+                        <h3>Rajpoot Style Mart</h3>
+                        <p>
+                            A full-stack clothing e-commerce website featuring
+                            authentication, shopping cart, checkout, and an
+                            admin dashboard.
+                        </p>
+
+                        <div class="projectBtn">
+                            <button class="livePreview" type="button">
+                                Live Preview
+                            </button>
+                            <button class="github" type="button">
+                                GitHub
+                            </button>
+                        </div>
+
+                    </article>
+
+                    <!-- Portfolio Project -->
+                    <article class="projectCard" data-category="web">
+
+                        <div class="project-image">
+                            <img src="images/portfolioproject.jpeg" alt="Personal portfolio website preview"
+                                loading="lazy">
+                        </div>
+
+                        <h3>Personal Portfolio</h3>
+                        <p>
+                            A responsive portfolio website showcasing my skills,
+                            web development projects, certificates, and contact
+                            information.
+                        </p>
+
+                        <div class="projectBtn">
+                            <button class="livePreview" type="button">
+                                Live Preview
+                            </button>
+                            <button class="github" type="button">
+                                GitHub
+                            </button>
+                        </div>
+
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- Graphic Design Projects -->
+            <section class="projectGroup" data-group="graphics">
+
+                <div class="tittleSection">
+                    <h2>Graphic Design Projects</h2>
+                    <p>
+                        Creative Canva designs for social media promotions,
+                        businesses, and special occasions.
+                    </p>
+                </div>
+
+                <div class="projectContent">
+
+                    <!-- Perfume Promotional Post -->
+                    <article class="projectCard" data-category="graphics">
+
+                        <div class="project-image">
+                            <img src="images/PERFUMEPost.png" alt="Premium perfume promotional social media design"
+                                loading="lazy">
+                        </div>
+
+                        <h3>Perfume Promotional Post</h3>
+                        <p>
+                            A premium-style promotional design created for
+                            perfume marketing on social media.
+                        </p>
+
+
+                        <div class="projectBtn">
+
+                            <button style="width: 100%;" class="livePreview" onclick="window.location.href='images/PERFUMEPost.png'">
+                                <i class="fa-solid fa-eye"></i>
+                                Live Preview
+
+                            </button>
+
+                    </article>
+
+                    <!-- Restaurant Advertisement -->
+                    <article class="projectCard" data-category="graphics">
+
+                        <div class="project-image">
+                            <img src="images/resturant promotional post.png" alt="Restaurant food advertisement design"
+                                loading="lazy">
+                        </div>
+
+                        <h3>Restaurant Food Advertisement</h3>
+                        <p>
+                            Food promotional design showcasing restaurant products to attract customers.
+                        </p>
+
+                        <div class="projectBtn">
+                            <button style="width: 100%;" class="livePreview"
+                                onclick="window.location.href='images/resturant promotional post.png'">
+                                <i class="fa-solid fa-eye"></i>
+                                Live Preview
+
+                            </button>
+                        </div>
+
+                    </article>
+
+                    <!-- Eid Greeting Post -->
+                    <article class="projectCard" data-category="graphics">
+
+                        <div class="project-image">
+                            <img src="images/EidPost.png" alt="Eid greeting social media design" loading="lazy">
+                        </div>
+
+                        <h3>Eid Greeting Post</h3>
+                        <p>
+                            A festive social media design created for Eid
+                            greetings and seasonal celebrations.
+                        </p>
+
+                        <div class="projectBtn">
+                            <button style="width: 100%;" class="livePreview" onclick="window.location.href='images/EidPost.png'">
+                                <i class="fa-solid fa-eye"></i>
+                                Live Preview
+
+                            </button>
+                        </div>
+
+                    </article>
+                   <!-- Juice Advertisement posts -->
+                      <article class="projectCard" data-category="graphics">
+
+                        <div class="project-image">
+                            <img src="images/Orange Juice Post.png" alt="Restaurant food advertisement design"
+                                loading="lazy">
+                        </div>
+
+                        <h3>Restaurant Drink Advertisement</h3>
+                        <p>
+                            Food promotional design showcasing restaurant products to attract customers.
+                        </p>
+
+                        <div class="projectBtn">
+                            <button style="width: 100%;" class="livePreview"
+                                onclick="window.location.href='images/Orange Juice Post.png'">
+                                <i class="fa-solid fa-eye"></i>
+                                Live Preview
+
+                            </button>
+                        </div>
+
+                    </article>
+
+
+                     <!-- clothes Advertisement posts -->
+                      <article class="projectCard" data-category="graphics">
+
+                        <div class="project-image">
+                            <img src="images/Wear advertisement posts2.png" alt="Restaurant food advertisement design"
+                                loading="lazy">
+                        </div>
+
+                        <h3>Clothes Advertisement Post</h3>
+                        <p>
+                           Clothing Promotional Design Showcasing Apparel Collection to Attract Customers.
+                        </p>
+
+                        <div class="projectBtn">
+                            <button style="width: 100%;" class="livePreview"
+                                onclick="window.location.href='images/Wear advertisement posts2.png'">
+                                <i class="fa-solid fa-eye"></i>
+                                Live Preview
+
+                            </button>
+                        </div>
+
+                    </article>
+
+                     <!-- business shoes Post -->
+                    <article class="projectCard" data-category="graphics">
+
+                        <div class="project-image">
+                            <img src="images/shoes posts.png" alt="shoes social media design" loading="lazy">
+                        </div>
+
+                        <h3>Shoes Advertisement</h3>
+                        <p>
+                             An engaging Wear product promotional design created to
+                            highlight  products and attract customers.
+                        </p>
+
+                        <div class="projectBtn">
+                            <button style="width: 100%;" class="livePreview" onclick="window.location.href='images/shoes posts.png'">
+                                <i class="fa-solid fa-eye"></i>
+                                Live Preview
+
+                            </button>
+                        </div>
+
+                    </article>
+                </div>
+            </section>
+
+        </section>
+
+
+        <!-- Certificate Section -->
+
+        <div id="certificates" class="certificateContainer">
+
+            <div class="tittleSection">
+                <h2> My Certificates</h2>
+                <p>Here are some of the certifications and achievements that demonstrate my continuous learning and
+                    professional development.</p>
+            </div>
+
+            <div class="certificateContent">
+
+                <!-- Certificate Card -->
+                <div class="certificateCard">
+                    <img src="images/DigitalLiteracyCertificate.png" alt="certificateimg">
+                    <h3>Digital Literacy</h3>
+                    <p>Successfully completed a Digital Literacy course covering computer fundamentals,digital communication, and Microsoft Office.</p>
+                    <h4>Issued By : DigiSkill</h4>
+                    <button class="livePreview" onclick="window.location.href='images/DigitalLiteracyCertificate.png'">
+                        <i class="fa-solid fa-eye"></i>
+                        Live Preview
+
+                    </button>
+                </div>
+
+
+                <!-- Certificate Card -->
+                <div class="certificateCard">
+                    <img src="images/wordpressCertificate.png" alt="certificateimg">
+                    <h3>WordPress Development</h3>
+                    <p>Successfully completed a WordPress development course covering Elementor,Plugins,Themes nad
+                        Woo-commerce.</p>
+                    <h4>Issued By : DigiSkill</h4>
+                    <button class="livePreview" onclick="window.location.href='images/wordpressCertificate.png'">
+                        <i class="fa-solid fa-eye"></i>
+                        Live Preview</button>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+        <!-- Contact Section  -->
+
+        <section id="contact">
+
+            <div class="tittleSection">
+
+
+                <h2>Get In Touch</h2>
+
+                <p>
+                    Have a project in mind or want to discuss an opportunity?
+                    Feel free to contact me. I'll get back to you as soon as possible.
+                </p>
+
+            </div>
+
+            <div class="contact-container">
+
+                <!-- Contact Information -->
+
+                <div class="contact-info">
+
+                    <h3>Let's Talk</h3>
+
+                    <p>
+                        I'm always open to discussing new projects,
+                        freelance work, internships, and full-time opportunities.
+                    </p>
+
+                    <div class="contact-box">
+
+                        <i class="fa-solid fa-user"></i>
+
+                        <div>
+
+                            <h4>Name</h4>
+
+                            <p>Muhammad Shaheer</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="contact-box">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <div>
+
+                            <h4>Email</h4>
+
+                            <p>shaheerrajpoot55@gmail.com</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="contact-box">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <div>
+
+                            <h4>Phone</h4>
+
+                            <p>+92 301-0812984</p>
+                            <p>+92 319-8327620</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="contact-box">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <div>
+
+                            <h4>Location</h4>
+
+                            <p>City GujarKhan,District Rawalpindi, Pakistan</p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Social Icons -->
+
+                    <div class="contact-social">
+
+                        <a href="https://github.com/shaheerrajpoot55-developer">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/muhammad-shaheer-9b792940b/?isSelfProfile=true">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Contact Form -->
+
+                <div class="contact-form">
+
+                    <form action="https://formspree.io/f/mykrlzna" method="POST">
+
+                        <div class="input-group">
+
+                            <input type="text" name="name" placeholder="Your Name" required>
+
+                            <input type="email" name="email" placeholder="Your Email" required>
+
+                        </div>
+
+                        <input type="text" name="subject" placeholder="Subject" required>
+
+                        <textarea rows="8" name="message" placeholder="Write Your Message..." required></textarea>
+
+                        <button type="submit">
+
+                            <i class="fa-solid fa-paper-plane"></i>
+
+                            Send Message
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
